@@ -1,0 +1,41 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #0b1020;
+  color: #fff;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+
+.app {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.shell {
+  width: min(960px, calc(100vw - 24px));
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.card {
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 14px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.04);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.35);
+}
+
+.hint {
+  opacity: 0.85;
+  font-size: 14px;
+}
